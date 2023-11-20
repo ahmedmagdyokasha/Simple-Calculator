@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  font-family: "Times New Roman", Times, serif;
+  height: 100vh;
+  width: 100%;
+}
+.calculator {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: dimgray;
+  padding: 5px;
+  text-align: right;
+  width: 20%;
+}
+form input {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 7rem;
+  width: 100%;
+  padding: 7px;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+  width: 100%;
+}
+.buttons button {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  height: 3rem;
+}
+.btn-operator {
+  background-color: rgb(238, 160, 14);
+  color: white;
+}
+.btn-solve {
+  background-color: green;
+}
+.btn-delete {
+  background-color: rgb(240, 102, 102);
+}
+.btn-reset {
+  background-color: red;
+}
+.btn-number {
+  background-color: rgb(235, 229, 229);
+}
